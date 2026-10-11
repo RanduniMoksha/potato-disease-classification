@@ -1,0 +1,30 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache & Jupyter checkpoints
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Datasets & raw images (keep them local or host on Drive/Kaggle)
+training/
+dataset/
+PlantVillage/
+*.zip
+*.tar.gz
+
+# Large model files (>100MB cannot be pushed to GitHub)
+# (Exclude or use Git LFS if needed)
+*.h5
+*.keras
+*.pth
+*.pt
+saved_models/
+
+# OS/IDE files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
